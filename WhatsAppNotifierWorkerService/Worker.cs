@@ -198,7 +198,7 @@ namespace WhatsAppNotifierWorkerService
                     if (string.IsNullOrEmpty(orden.NomCom.ToString()) || string.IsNullOrEmpty(orden.EspMed) || string.IsNullOrEmpty(orden.CorEle))
                     {
                         _logger.LogWarning("CitaID: {CitaID} no tiene todos los datos necesarios para mensaje de finalizado (Empresa, Interconsultas, Correo).", orden.NumOrd);
-                        // Opcional: Marcar como fallido o pendiente de datos, o no hacer nada
+                        
                         continue; // Saltar esta orden y pasar a la siguiente
                     }
 
