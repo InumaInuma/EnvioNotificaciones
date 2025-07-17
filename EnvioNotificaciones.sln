@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvioNotificacionesDomian", "EnvioNotificacionesDomian\EnvioNotificacionesDomian.csproj", "{920DE25C-32AC-4353-8290-258E779F1D1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvioNotificacionesApplication", "EnvioNotificacionesApplication\EnvioNotificacionesApplication.csproj", "{344162C5-64FB-401D-90E2-DD6F9CBBCC84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvioNotificacionesInfrastructure", "EnvioNotificacionesInfrastructure\EnvioNotificacionesInfrastructure.csproj", "{C16FAE49-AD3D-4F72-A1AA-34B86A64DD9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvioNotificacionesUIWinForms", "EnvioNotificacionesUIWinForms\EnvioNotificacionesUIWinForms.csproj", "{06904B7F-2E5E-40E3-AFDF-CE092FD1582D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsAppNotifierWorkerService", "WhatsAppNotifierWorkerService\WhatsAppNotifierWorkerService.csproj", "{FC8B893C-E1B2-4660-9058-F5AD68630D84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvioNotificacionesSharedContracts", "EnvioNotificacionesSharedContracts\EnvioNotificacionesSharedContracts.csproj", "{F1D995E0-360A-4B20-96B6-38DA34C47E48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{920DE25C-32AC-4353-8290-258E779F1D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920DE25C-32AC-4353-8290-258E779F1D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920DE25C-32AC-4353-8290-258E779F1D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920DE25C-32AC-4353-8290-258E779F1D1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{344162C5-64FB-401D-90E2-DD6F9CBBCC84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344162C5-64FB-401D-90E2-DD6F9CBBCC84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344162C5-64FB-401D-90E2-DD6F9CBBCC84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{344162C5-64FB-401D-90E2-DD6F9CBBCC84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C16FAE49-AD3D-4F72-A1AA-34B86A64DD9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C16FAE49-AD3D-4F72-A1AA-34B86A64DD9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C16FAE49-AD3D-4F72-A1AA-34B86A64DD9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C16FAE49-AD3D-4F72-A1AA-34B86A64DD9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06904B7F-2E5E-40E3-AFDF-CE092FD1582D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06904B7F-2E5E-40E3-AFDF-CE092FD1582D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06904B7F-2E5E-40E3-AFDF-CE092FD1582D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06904B7F-2E5E-40E3-AFDF-CE092FD1582D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8B893C-E1B2-4660-9058-F5AD68630D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8B893C-E1B2-4660-9058-F5AD68630D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8B893C-E1B2-4660-9058-F5AD68630D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8B893C-E1B2-4660-9058-F5AD68630D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1D995E0-360A-4B20-96B6-38DA34C47E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D995E0-360A-4B20-96B6-38DA34C47E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D995E0-360A-4B20-96B6-38DA34C47E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D995E0-360A-4B20-96B6-38DA34C47E48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
